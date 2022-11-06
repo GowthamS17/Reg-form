@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resgistration Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/main.css" />
+  </head>
+  <body>
+    <section class="main-box">
+      <section class="reg-box shadow rounded rounded-3">
+        <form class="reg-form" id="reg-form">
+          <h4 class="text-center pt-2 fw-bold text-black-50">
+            Resgistration Form
+          </h4>
+          <div class="form-group mt-2">
+            <label for="fname" class="text-black-50 fw-bold">Full Name</label>
+            <input
+              type="text"
+              name="fname"
+              class="form-control border border-dark"
+              id="fname"
+              placeholder="Full Name"
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <label for="pnumber" class="text-black-50 fw-bold"
+              >Phone Number</label
+            >
+            <input
+              type="number"
+              name="pnumber"
+              class="form-control border border-dark"
+              id="pnumber"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="email" class="text-black-50 fw-bold">E-Mail</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control border border-dark"
+              id="email"
+              placeholder="E-Mail"
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="uname" class="text-black-50 fw-bold">User Name</label>
+            <input
+              type="text"
+              name="uname"
+              class="form-control border border-dark"
+              id="uname"
+              placeholder="User Name"
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="pass" class="text-black-50 fw-bold">Password</label>
+            <input
+              type="text"
+              name="pass"
+              class="form-control border border-dark"
+              id="pass"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="cpass" class="text-black-50 fw-bold"
+              >Confirm Password</label
+            >
+            <input
+              type="text"
+              name="cpass"
+              class="form-control border border-dark"
+              id="cpass"
+              placeholder="Confirm Password"
+            />
+          </div>
+          <div class="d-flex justify-content-center mt-3">
+            <div>
+              <div class="btn btn-primary fw-bold mt-2" id="submit">
+                Register
+              </div>
+            </div>
+            <div class="p-3 text-black-50 fw-bold">
+              Already Registered?
+              <a href="./login.html" class="text-primary text-decoration-none"
+                >Sign-In</a
+              >
+            </div>
+          </div>
+        </form>
+      </section>
+    </section>
+    <script src="./jquery/jquery-3.6.0.min.js"></script>
+    <script src="./jquery/jquery.validate.min.js"></script>
+    <script src="./jquery/additional-methods.min.js"></script>
+    <script src="./register.js"></script>
+  </body>
+</html>
